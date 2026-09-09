@@ -133,7 +133,7 @@ cd ~/my-project
 ```
 Initialize Git:
 ```text
-git init
+git init -b main
 ```
 Check what's there:
 ```text
@@ -166,7 +166,7 @@ Add it as your remote:
 ```text
 git remote add origin git@github.com:YOUR-USERNAME/my-project.git
 ```
-Set your branch to ``` main ```:
+Set your branch to ` main `:
 ```text
 git branch -M main
 ```
